@@ -1,1 +1,38 @@
 # SQL
+【学習内容】
+- データベースとは
+- クエリとは
+- 複数カラムを選択「SELECT カラムA,カラムB」「SELECT *」
+- 特定のデータを取得「WHERE カラム = "〇〇"」
+- データ型「数値、テキスト、日付」
+- 比較演算子「<, <=, >, >=」
+- LIKE演算子「WHERE カラム名 LIKE 文字列;」
+- ワイルドカード（%）「前方一致、後方一致」
+- NOT演算子「WHERE　NOT カラム名」
+- NULLとは「カラム名 IS NULL, カラム名 IS NOT NULL」
+- AND・OR演算子「WHERE 条件１ AND　条件２, WHERE 条件１ AND 条件２」
+- ORDER　BY「DESC, ASC」
+- LIMIT「LIMIT　データの件数」
+- DISTINCT「SELECT DISTINCT（カラム名） FROM テーブル名」
+- 四則演算「+ - * /」
+- SUM（カラム名）
+- AVG（カラム名）
+- COUNT（カラム名）とCOUNT（＊）
+- MAX（カラム名）、MIN（カラム名）
+- GROUP BY「GROUP BY カラム名」
+- GROUP BY（複数）「GROUP BY カラムA, カラムB」
+- GROUP BY（WHERE）「SELECT カラム名 FROM テーブル名 WHERE 条件 GROUP BY カラム名, カラム名;」
+- HAVING「GROUP BY カラム名 HAVING 条件」
+- サブクエリ「クエリ（サブクエリ）;」
+- AS「カラム名 AS "名前"」
+- JOIN「SELECT* FROM テーブルA JOIN テーブルB ON 結合条件」
+- 実行順序
+- NULLを含んだ実行結果「外部キーがNULLのレコードは、実行結果に表示されない」
+- LEFT JOIN「外部キーがNULLのレコードもNULLのまま実行結果に表示される」
+- ３つ以上のテーブル結合
+- データの追加「INSERT INTO テーブル名(カラムA, カラムB, カラムC) VALUES(x,y,z);」
+- AUTO INCREMENT「idカラム」
+- データの更新「UPDATE テーブル名 SET　カラムA=x, カラムB=y WHERE id = z;」
+- UPDATEの注意点「WHEREで更新するレコードを指定しないとカラム内の全データが更新されてしまう」
+- データの削除「DELETE FROM テーブル名 WHERE id = x;」
+- DELETEの注意点「WHEREで削除するレコードを指定しないとテーブル内の全レコードが削除されてしまう」
